@@ -37,10 +37,7 @@ p {
   color: #3c3c3c; }
 
 .section_light .section_container_text {
-  color: #fff; }
-  .section_light .section_container_text p {
-    color: #fff; }
+  color: #fff;
+  border: 2px solid #fff; }
 .section_light .section_title {
   color: #fff; }
-  .section_light .section_title h2 {
-    background-color: transparent; }
