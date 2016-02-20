@@ -30,9 +30,17 @@ p {
   color: #b3b3b3;
   background-color: rgba(225, 225, 225, 0.05); }
 
-.section_container_text {
+.section_dark .section_container_text {
   color: #3c3c3c;
   border: 2px solid #3c3c3c; }
-
-.section_title {
+.section_dark .section_title {
   color: #3c3c3c; }
+
+.section_light .section_container_text {
+  color: #fff; }
+  .section_light .section_container_text p {
+    color: #fff; }
+.section_light .section_title {
+  color: #fff; }
+  .section_light .section_title h2 {
+    background-color: transparent; }
