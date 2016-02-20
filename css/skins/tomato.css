@@ -1,0 +1,38 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+
+p {
+  color: #3c3c3c; }
+
+.color_element {
+  color: #FF6347; }
+
+.color_bg {
+  background-color: #FF6347; }
+
+.color_border {
+  border-color: #FF6347; }
+
+.top_text h1 {
+  color: #fff;
+  letter-spacing: 3px; }
+.top_text p {
+  color: #fff; }
+
+.navbar_menu a {
+  letter-spacing: 4px;
+  color: #fff; }
+.navbar_menu a:hover {
+  color: #b3b3b3;
+  background-color: rgba(225, 225, 225, 0.05); }
+
+.section_container_text {
+  color: #3c3c3c;
+  border: 2px solid #3c3c3c; }
+
+.section_title {
+  color: #3c3c3c; }
