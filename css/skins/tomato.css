@@ -36,8 +36,15 @@ p {
 .section_dark .section_title {
   color: #3c3c3c; }
 
+.section_light h4 {
+  color: #fff; }
+.section_light p {
+  color: #fff; }
+.section_light .logo-service {
+  color: #fff; }
 .section_light .section_container_text {
-  color: #fff;
-  border: 2px solid #fff; }
+  color: #fff; }
 .section_light .section_title {
   color: #fff; }
+  .section_light .section_title h2 {
+    background-color: transparent; }

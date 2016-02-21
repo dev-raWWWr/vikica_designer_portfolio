@@ -12,6 +12,9 @@ p {
   font-size: 1em;
   font-family: "LatoLight", sans-serif; }
 
+.table_row {
+  text-align: center; }
+
 .table_wrapper {
   display: table;
   height: 100%;
@@ -208,5 +211,31 @@ section {
   position: relative;
   height: auto; }
 
-#section_services {
-  background-image: url("../img/services_bg.jpg"); }
+.logo-service {
+  font-size: 60px;
+  background-image: none;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  height: auto;
+  line-height: normal;
+  vertical-align: text-top;
+  width: auto; }
+
+#section_services .section_container {
+  width: 100%; }
+
+.cont_for_services {
+  padding: 5% 0; }
+  .cont_for_services h4 {
+    font-size: 1.375em;
+    font-family: "LatoBold";
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 25px 0;
+    padding: 0; }
+  .cont_for_services p {
+    font-family: "LatoRegular";
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 300; }
