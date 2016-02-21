@@ -8,7 +8,9 @@
 .pagination_padding_right{
 	padding-right: 80px
 }
-
+.pagination{
+	margin: 0 auto -11%;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -20,9 +22,21 @@ h2 {
   font-size: 1.5em;}
 h4{
 	font-size:1em;}
+h5{
+	font-size: 0.8em;
+}
 p {
   font-size: 0.8em;
 
+}
+.pagination{
+	margin: 0 auto -20%;
+}
+.pagination_padding_left{
+	padding-right: 40px
+}
+.pagination_padding_right{
+	padding-right: 70px
 }
 
 /* Small Devices, Tablets */

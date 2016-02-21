@@ -17,7 +17,7 @@ h4 {
   text-transform: uppercase; }
 
 h5 {
-  font-size: 1em;
+  font-size: 0.875em;
   text-transform: uppercase; }
 
 .table_row {
@@ -264,7 +264,7 @@ section {
   border-bottom: 1px solid #000; }
 
 .pagination_padding_left {
-  padding-right: 114px;
+  padding-right: 105px;
   position: absolute;
   height: 100%;
   top: 0;
@@ -274,7 +274,7 @@ section {
   z-index: -2; }
 
 .pagination_padding_right {
-  padding-right: 114px;
+  padding-right: 105px;
   position: absolute;
   height: 100%;
   top: 0;
