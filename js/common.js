@@ -1,4 +1,20 @@
 $(document).ready(function() {
+	$('#discus a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+	$('#concept a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+	$('#production a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+	$('#happy a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 	function heightDetect(){
 	$(".main_head").css("height", $(window).height());
 

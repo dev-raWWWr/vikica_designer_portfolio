@@ -5,13 +5,16 @@
 	<title>Заголовок</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
-	<link rel="stylesheet" href="libs/bootstrap-tabs/css/bootstrap.min-for-tabs.css" />
+
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />	
+	<link rel="stylesheet" href="libs/bootstrap-tabs/css/bootstrap-for-tabs.css" />
+	
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="css/fonts.css" />
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/skins/tomato.css" />
 	<link rel="stylesheet" href="css/media.css" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
+
 	<link rel="stylesheet" href="libs/animate/animate.min.css" />
 	<link rel="stylesheet" href="libs/linea/styles.css" />
 
@@ -119,7 +122,7 @@
 			</div>
 		</div>
 	</section>
-	<section id="work_process" class="section_dark">
+	<section id="section_work_process" class="section_dark">
 		<div class="container">
 			<div class="row">
 				<div class="table_row">
@@ -128,33 +131,73 @@
 							<div class="section_title">
 								<h2>work process</h2>	
 							</div>
-							<div class="section_container_text">
-								<div> 
+							<div class="row">
+								<div class="section_container_text col-md-12">
 									<!-- Nav tabs -->
 									<ul class="nav nav-tabs" role="tablist">
-										<li role="presentation" class="active"><a href="#discus" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-										<li role="presentation"><a href="#concept" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-										<li role="presentation"><a href="#production" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-										<li role="presentation"><a href="#happy" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+										<div class="col-md-3">
+											<li role="presentation" class="active">
+												<a href="#discus" aria-controls="home" role="tab" data-toggle="tab">
+													<span class="logo-service icon-basic-message-multiple"></span>
+													<h5>discus</h5>
+												</a>
+												
+												<div class="pagination">1
+													<div class="pagination_padding_left">
+													</div>	
+												</div>
+											</li>
+										</div>
+										<div class="col-md-3">
+											<li role="presentation">
+												<a href="#concept" aria-controls="profile" role="tab" data-toggle="tab">
+													<span class="logo-service icon-basic-lightbulb"></span>
+													<h5>creative concept</h5>
+												</a>
+												<div class="pagination">2</div>
+											</li>
+										</div>
+										<div class="col-md-3">
+											<li role="presentation">
+												<a href="#production" aria-controls="messages" role="tab" data-toggle="tab">
+													<span class="logo-service icon-basic-paperplane"></span>
+													<h5>production</h5>
+												</a>
+												<div class="pagination">3</div>
+											</li>
+										</div>
+										<div class="col-md-3">
+											<li role="presentation">
+												<a href="#happy" aria-controls="settings" role="tab" data-toggle="tab">
+													<span class="logo-service icon-basic-heart"></span>
+													<h5>happy client</h5>
+												</a>
+												<div class="pagination">4
+												<div class="pagination_padding_right">
+													</div>	
+												</div>
+											</li>
+										</div>
 									</ul>
-
-									<!-- Tab panes -->
-									<div class="tab-content">
-										<div role="tabpanel" class="tab-pane  fade in active" id="discus">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова 1111111111111111111111	</div>
-										<div role="tabpanel" class="tab-pane fade " id="concept">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова22222222222</div>
-										<div role="tabpanel" class="tab-pane fade " id="production">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова233333333333333</div>
-										<div role="tabpanel" class="tab-pane fade " id="happy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова444444444444</div>
+									<div class="tab-content container_info">
+										<div role="tabpanel" class="tab-pane  fade in active" id="discus">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова 1111111111111111111111	
+										</div>
+										<div role="tabpanel" class="tab-pane fade " id="concept">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова22222222222
+										</div>
+										<div role="tabpanel" class="tab-pane fade " id="production">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова233333333333333
+										</div>
+										<div role="tabpanel" class="tab-pane fade " id="happy">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo ducimus Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Снова444444444444
+										</div>
 									</div>
-
 								</div>
-							</div>
 
+
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
 	</section>
 
 	<!--[if lt IE 9]>
@@ -167,7 +210,7 @@
 	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
 	<script src="libs/parallax/parallax.min.js"></script>
 	<script src="libs/animate/animate-css.js"></script>
-	<script src="libs/bootstrap-tabs/js/bootstrap.min-for-tabs.js"></script>
+	<script src="libs/bootstrap-tabs/js/bootstrap-for-tabs.js"></script>
 	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
 	<script src="libs/waypoints/waypoints.min.js"></script>
 	<script src="js/common.js"></script>

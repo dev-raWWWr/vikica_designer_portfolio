@@ -13,7 +13,12 @@ p {
   font-family: "LatoLight", sans-serif; }
 
 h4 {
-  font-size: 1.375em; }
+  font-size: 1.375em;
+  text-transform: uppercase; }
+
+h5 {
+  font-size: 1em;
+  text-transform: uppercase; }
 
 .table_row {
   text-align: center; }
@@ -198,7 +203,8 @@ body textarea:required:valid {
   padding: 10% 0; }
 
 .section_title {
-  position: relative; }
+  position: relative;
+  z-index: 2; }
   .section_title h2 {
     background-color: white;
     display: table;
@@ -240,7 +246,7 @@ section {
   padding: 5% 0 0; }
   .cont_for_services .text-center {
     padding-top: 5%; }
-  .cont_for_services h4 {
+  .cont_for_services h5 {
     font-family: "LatoBold";
     text-transform: uppercase;
     font-weight: 400;
@@ -251,3 +257,51 @@ section {
     font-size: 16px;
     line-height: 1.5em;
     font-weight: 300; }
+
+#section_work_process .section_container_text {
+  padding: 6% 2%; }
+#section_work_process ul {
+  border-bottom: 1px solid #000; }
+
+.pagination_padding_left {
+  padding-right: 114px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  right: 103%;
+  z-index: -2; }
+
+.pagination_padding_right {
+  padding-right: 114px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  left: 103%;
+  z-index: -2; }
+
+.pagination {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  font-family: LatoLight;
+  margin: 0 auto -9%;
+  font-family: LatoLight;
+  background-color: #fff;
+  position: relative;
+  z-index: 2; }
+
+.work_container {
+  margin: 0 auto;
+  width: 100%; }
+
+.container_info {
+  padding-top: 5%; }
+
+.section_container_text li.active .pagination {
+  border: 1px solid #000; }

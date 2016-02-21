@@ -2,6 +2,12 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+.pagination_padding_left{
+	padding-right: 80px
+}
+.pagination_padding_right{
+	padding-right: 80px
+}
 
 }
 
