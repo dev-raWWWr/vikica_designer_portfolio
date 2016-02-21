@@ -193,7 +193,7 @@ body textarea:required:valid {
       text-transform: uppercase; }
 
 .section_container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   padding: 10% 0; }
 
@@ -208,6 +208,14 @@ body textarea:required:valid {
 
 .section_container_text {
   padding: 6% 13%; }
+
+.cont_for_portraite {
+  width: 28%;
+  overflow: hidden;
+  margin: 0 auto; }
+  .cont_for_portraite img {
+    border-radius: 50%;
+    width: 100%; }
 
 section {
   width: 100%;
