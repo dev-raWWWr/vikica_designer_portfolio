@@ -12,6 +12,17 @@ p {
   font-size: 1em;
   font-family: "LatoLight", sans-serif; }
 
+h4 {
+  font-size: 1.375em;
+  text-transform: uppercase; }
+
+h5 {
+  font-size: 0.875em;
+  text-transform: uppercase; }
+
+.table_row {
+  text-align: center; }
+
 .table_wrapper {
   display: table;
   height: 100%;
@@ -187,12 +198,13 @@ body textarea:required:valid {
       text-transform: uppercase; }
 
 .section_container {
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   padding: 10% 0; }
 
 .section_title {
-  position: relative; }
+  position: relative;
+  z-index: 2; }
   .section_title h2 {
     background-color: white;
     display: table;
@@ -203,7 +215,97 @@ body textarea:required:valid {
 .section_container_text {
   padding: 6% 13%; }
 
+.cont_for_portraite {
+  width: 28%;
+  overflow: hidden;
+  margin: 0 auto; }
+  .cont_for_portraite img {
+    border-radius: 50%;
+    width: 100%; }
+
 section {
   width: 100%;
   position: relative;
   height: auto; }
+
+.logo-service {
+  font-size: 60px;
+  background-image: none;
+  background-position: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  height: auto;
+  line-height: normal;
+  vertical-align: text-top;
+  width: auto; }
+
+#section_services .section_container {
+  width: 100%; }
+
+.cont_for_services {
+  padding: 5% 0 0; }
+  .cont_for_services .text-center {
+    padding-top: 5%; }
+  .cont_for_services h5 {
+    font-family: "LatoBold";
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 25px 0;
+    padding: 0; }
+  .cont_for_services p {
+    font-family: "LatoLight";
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 300; }
+
+#section_work_process .section_container_text {
+  padding: 6% 2%; }
+#section_work_process ul {
+  border-bottom: 1px solid #000; }
+
+.pagination_padding_left {
+  padding-right: 96px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  right: 103%;
+  z-index: -2; }
+
+.pagination_padding_right {
+  padding-right: 96px;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  left: 103%;
+  z-index: -2; }
+
+.pagination {
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  font-family: LatoLight;
+  margin: 0 auto -9%;
+  font-family: LatoLight;
+  background-color: #fff;
+  position: relative;
+  z-index: 2; }
+
+.work_container {
+  margin: 0 auto;
+  width: 100%; }
+
+.container_info {
+  padding-top: 5%; }
+
+.section_container_text li.active .pagination {
+  border: 1px solid #000;
+  transition: all 0.5s ease-in; }
+
+.hidden_info {
+  display: none; }

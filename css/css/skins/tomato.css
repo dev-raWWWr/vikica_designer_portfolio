@@ -3,19 +3,10 @@ body {
   letter-spacing: 1px; }
 
 a {
-  color: #FF6347; }
+  color: #3c3c3c; }
 
 p {
   color: #3c3c3c; }
-
-.color_element {
-  color: #FF6347; }
-
-.color_bg {
-  background-color: #FF6347; }
-
-.color_border {
-  border-color: #FF6347; }
 
 .top_text h1 {
   color: #fff;
@@ -36,8 +27,15 @@ p {
 .section_dark .section_title {
   color: #3c3c3c; }
 
+.section_light h4 {
+  color: #fff; }
+.section_light p {
+  color: #fff; }
+.section_light .logo-service {
+  color: #fff; }
 .section_light .section_container_text {
-  color: #fff;
-  border: 2px solid #fff; }
+  color: #fff; }
 .section_light .section_title {
   color: #fff; }
+  .section_light .section_title h2 {
+    background-color: transparent; }

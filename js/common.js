@@ -1,4 +1,13 @@
 $(document).ready(function() {
+	$(".section_container_text .nav li").click(function(){
+		$(".pagination").toggleClass("pulse")
+		setTimeout('$(".pagination").removeClass("pulse")', 800)
+		 $(this).addClass("pulse")
+			setTimeout('$(".section_container_text .nav li").removeClass("pulse")', 800)
+		
+	
+});
+
 	$('#discus a').click(function (e) {
   e.preventDefault()
   $(this).tab('show')

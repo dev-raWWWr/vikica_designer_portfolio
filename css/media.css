@@ -29,15 +29,27 @@ p {
   font-size: 0.8em;
 
 }
+.hidden_info{
+	display: block;
+	}	
 .pagination{
-	margin: 0 auto -20%;
+	margin: 0 auto ;
 }
 .pagination_padding_left{
 	padding-right: 40px
 }
 .pagination_padding_right{
-	padding-right: 70px
+	padding-right: 63px
 }
+.container_info{
+	display: none;
+}
+#section_work_process	ul{
+	border-bottom:none;}
+.section_container_text	li .pagination{	
+	border: 1px solid #000;}
+		
+		
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
