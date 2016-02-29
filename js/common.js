@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
 	$(".section_container_text .nav li").click(function(){
 		$(".pagination").toggleClass("pulse")
 		setTimeout('$(".pagination").removeClass("pulse")', 800)

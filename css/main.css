@@ -258,6 +258,8 @@ section {
     line-height: 1.5em;
     font-weight: 300; }
 
+#section_work_process .section_container {
+  padding: 10% 0 0 0; }
 #section_work_process .section_container_text {
   padding: 6% 4%; }
 #section_work_process ul {
@@ -314,14 +316,15 @@ section {
   display: block; }
 
 #section_portfolio {
-  background-color: #000; }
+  background-color: #fff; }
   #section_portfolio .section_container {
     width: 100%; }
   #section_portfolio h2 {
-    margin: 0 auto; }
+    margin: 0px auto -0.75em; }
 
 .cont_for_portfolio {
-  padding-top: 5%; }
+  padding-top: 5%;
+  border-top: 1px solid black; }
   .cont_for_portfolio .portfolio_item {
     padding: 0;
     overflow: hidden;
@@ -350,3 +353,100 @@ section {
       display: inline-block;
       margin-bottom: 0;
       padding: 34% 0 0 0; }
+
+body textarea :required:valid, body input:focus:required:invalid {
+  color: #ccc; }
+
+body textarea:focus:required:invalid, body input:focus:required:invalid {
+  color: #ccc; }
+
+body input:required:valid, body textarea:required:valid {
+  color: #000; }
+
+#section_contact {
+  padding-bottom: 70px; }
+  #section_contact h1 {
+    padding-top: 20px; }
+  #section_contact p {
+    text-align: center; }
+
+.form-group {
+  display: block;
+  margin-bottom: 25px; }
+  .form-group input {
+    display: block;
+    width: 100%;
+    border: 1px solid #000;
+    text-indent: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-family: LatoRegular; }
+  .form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #000;
+    text-indent: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.0625em;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: LatoRegular; }
+
+.form-group textarea {
+  min-height: 150px; }
+
+.form-group .color_element {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000; }
+
+.btn_contact {
+  padding: 9px 0;
+  border: 1px solid #000;
+  width: 30%;
+  font-size: 13px;
+  color: #000;
+  background-color: #fff;
+  font-family: LatoRegular; }
+
+footer {
+  background-color: #FFF;
+  border-top: 1px solid #000; }
+  footer .section_container {
+    width: 100%;
+    padding: 0; }
+
+.b_block_right {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  float: right; }
+  .b_block_right p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0px; }
+  .b_block_right img {
+    display: inline-block;
+    vertical-align: middle; }
+
+.text_block {
+  letter-spacing: 0.5px;
+  margin: 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6e6f6e;
+  font-family: "LatoBold"; }
+  .text_block span {
+    color: #5cca00;
+    font-family: "LatoBold"; }
+
+.b_block_left {
+  margin-top: 5%;
+  margin-bottom: 5%; }

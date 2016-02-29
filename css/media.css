@@ -53,12 +53,16 @@ p {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+.btn_contact{width: 60%;}
 }
+h1 {
+  font-size: 1.8em;}
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+.btn_contact{width: 100%;}
 
+	
 }
 
 /* Custom, iPhone Retina */
